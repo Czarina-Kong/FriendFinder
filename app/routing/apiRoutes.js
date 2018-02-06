@@ -70,6 +70,6 @@ module.exports = function(app) {
 // Add new user
     friends.push(userData)
 // Send appropriate response
-    res.json({status: 'OK', name: matchName, photo: matchImage})
+    res.json({name: matchName, photo: matchImage})
   });
 };
